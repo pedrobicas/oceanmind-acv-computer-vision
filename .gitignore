@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+models/*.keras
+reports/*.png
+reports/*.json
+# Se quiser versionar o dataset no GitHub, remova a linha abaixo
+dataset/*/
