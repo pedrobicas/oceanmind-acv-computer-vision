@@ -1,0 +1,9 @@
+{
+  "classes": [
+    "algas",
+    "anomalia_termica",
+    "nuvens",
+    "oceano_normal",
+    "tempestade"
+  ]
+}

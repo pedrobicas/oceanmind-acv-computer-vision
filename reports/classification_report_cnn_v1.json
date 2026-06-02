@@ -1,0 +1,45 @@
+{
+  "algas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6.0
+  },
+  "anomalia_termica": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9.0
+  },
+  "nuvens": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1-score": 0.5714285714285714,
+    "support": 5.0
+  },
+  "oceano_normal": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7.0
+  },
+  "tempestade": {
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1-score": 0.7692307692307693,
+    "support": 5.0
+  },
+  "accuracy": 0.90625,
+  "macro avg": {
+    "precision": 0.925,
+    "recall": 0.8800000000000001,
+    "f1-score": 0.868131868131868,
+    "support": 32.0
+  },
+  "weighted avg": {
+    "precision": 0.94140625,
+    "recall": 0.90625,
+    "f1-score": 0.896978021978022,
+    "support": 32.0
+  }
+}

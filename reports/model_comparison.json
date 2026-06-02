@@ -1,0 +1,110 @@
+{
+  "classes": [
+    "algas",
+    "anomalia_termica",
+    "nuvens",
+    "oceano_normal",
+    "tempestade"
+  ],
+  "dataset": "dataset_real",
+  "results": {
+    "cnn_v1": {
+      "test_accuracy": 0.90625,
+      "test_loss": 0.23840388655662537,
+      "classification_report": {
+        "algas": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 6.0
+        },
+        "anomalia_termica": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 9.0
+        },
+        "nuvens": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1-score": 0.5714285714285714,
+          "support": 5.0
+        },
+        "oceano_normal": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 7.0
+        },
+        "tempestade": {
+          "precision": 0.625,
+          "recall": 1.0,
+          "f1-score": 0.7692307692307693,
+          "support": 5.0
+        },
+        "accuracy": 0.90625,
+        "macro avg": {
+          "precision": 0.925,
+          "recall": 0.8800000000000001,
+          "f1-score": 0.868131868131868,
+          "support": 32.0
+        },
+        "weighted avg": {
+          "precision": 0.94140625,
+          "recall": 0.90625,
+          "f1-score": 0.896978021978022,
+          "support": 32.0
+        }
+      }
+    },
+    "cnn_v2": {
+      "test_accuracy": 0.46875,
+      "test_loss": 1.5787098407745361,
+      "classification_report": {
+        "algas": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 6.0
+        },
+        "anomalia_termica": {
+          "precision": 1.0,
+          "recall": 0.1111111111111111,
+          "f1-score": 0.2,
+          "support": 9.0
+        },
+        "nuvens": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 5.0
+        },
+        "oceano_normal": {
+          "precision": 0.4666666666666667,
+          "recall": 1.0,
+          "f1-score": 0.6363636363636364,
+          "support": 7.0
+        },
+        "tempestade": {
+          "precision": 0.4166666666666667,
+          "recall": 1.0,
+          "f1-score": 0.5882352941176471,
+          "support": 5.0
+        },
+        "accuracy": 0.46875,
+        "macro avg": {
+          "precision": 0.5766666666666667,
+          "recall": 0.48888888888888893,
+          "f1-score": 0.3849197860962567,
+          "support": 32.0
+        },
+        "weighted avg": {
+          "precision": 0.6359374999999999,
+          "recall": 0.46875,
+          "f1-score": 0.3811163101604278,
+          "support": 32.0
+        }
+      }
+    }
+  }
+}

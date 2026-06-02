@@ -1,0 +1,3974 @@
+{
+  "dataset_type": "real_nasa_gibs_weak_labels",
+  "created_at": "2026-06-01",
+  "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi",
+  "classes": [
+    "oceano_normal",
+    "anomalia_termica",
+    "tempestade",
+    "nuvens",
+    "algas"
+  ],
+  "image_size": 160,
+  "requested_images_per_class": 60,
+  "split": {
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15,
+    "test_ratio": 0.15,
+    "counts": {
+      "oceano_normal": {
+        "train": 42,
+        "validation": 9,
+        "test": 9
+      },
+      "anomalia_termica": {
+        "train": 42,
+        "validation": 9,
+        "test": 9
+      },
+      "tempestade": {
+        "train": 42,
+        "validation": 9,
+        "test": 9
+      },
+      "nuvens": {
+        "train": 42,
+        "validation": 9,
+        "test": 9
+      },
+      "algas": {
+        "train": 42,
+        "validation": 9,
+        "test": 9
+      }
+    }
+  },
+  "labeling_note": "Rotulos aproximados por camada/regiao/data. Recomenda-se revisao visual.",
+  "downloads": [
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0001_2026-02-16_7f12af10.jpg",
+      "date": "2026-02-16",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -48.43058788563998,
+        -43.28499011581558,
+        -36.905600022460135,
+        -25.910380051840335
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0002_2024-04-05_8d253fe3.jpg",
+      "date": "2024-04-05",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -168.61844867142943,
+        -17.83437556065939,
+        -156.6968289578148,
+        -3.7002894597544977
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0003_2025-08-25_ee8af5b1.jpg",
+      "date": "2025-08-25",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -154.81364837873633,
+        -27.699504187083324,
+        -146.7219455910134,
+        -5.622705527931538
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0004_2025-11-07_46d0b15c.jpg",
+      "date": "2025-11-07",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -35.31004036491204,
+        -31.775851085488778,
+        -15.914698527239729,
+        -18.531384425726053
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0005_2025-12-07_bcf905a2.jpg",
+      "date": "2025-12-07",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -50.9045849084528,
+        -40.03366137466891,
+        -40.80144201413954,
+        -29.08947655850679
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0006_2025-04-29_81326937.jpg",
+      "date": "2025-04-29",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        52.35378799814179,
+        -25.458519706062752,
+        70.75344580443837,
+        -12.359016761965771
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0007_2025-04-07_ceaf1695.jpg",
+      "date": "2025-04-07",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        79.90568007454647,
+        -28.048788826812423,
+        93.07406546043154,
+        -14.384333285274076
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0008_2025-08-24_e2e8f898.jpg",
+      "date": "2025-08-24",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        43.756460189336494,
+        -17.45306932563604,
+        59.14788899675033,
+        -3.72491432056395
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0009_2025-01-02_a57d70aa.jpg",
+      "date": "2025-01-02",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -165.5279455101803,
+        -19.572802042095233,
+        -157.89106369572343,
+        -1.0576410558328666
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0010_2024-11-27_aff59ce1.jpg",
+      "date": "2024-11-27",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -29.786765377419897,
+        -23.963733396898604,
+        -20.762785280523403,
+        -13.097186679554335
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0011_2025-07-26_4c79ec6a.jpg",
+      "date": "2025-07-26",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        81.020600320922,
+        -22.483165401223264,
+        88.26697030864351,
+        -5.031127555857726
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0012_2025-07-21_c1d6fec9.jpg",
+      "date": "2025-07-21",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -36.61597662643547,
+        -2.4874069747690832,
+        -22.654611412244666,
+        10.301774603250438
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0013_2026-01-28_11c68cba.jpg",
+      "date": "2026-01-28",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -117.87168878544723,
+        -15.872482060089597,
+        -103.73621762330801,
+        -0.5371867936329617
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0014_2024-04-04_59b87774.jpg",
+      "date": "2024-04-04",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        77.48575269202239,
+        -20.98406688603418,
+        88.97453302261272,
+        -10.002793153599896
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0015_2024-04-09_2b5af560.jpg",
+      "date": "2024-04-09",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -114.81103923764367,
+        -14.000403713775329,
+        -98.41395698378517,
+        -1.7704061873787185
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0016_2024-09-27_d08d25e1.jpg",
+      "date": "2024-09-27",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -153.57228110576008,
+        -22.40486133071469,
+        -141.54417916888815,
+        -11.773934609459733
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0017_2025-08-10_155b528a.jpg",
+      "date": "2025-08-10",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -129.0778727492809,
+        -9.492267773539028,
+        -116.30907251402074,
+        0.08609349697140178
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0018_2024-07-17_2e7db42a.jpg",
+      "date": "2024-07-17",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -39.556808897623824,
+        2.636003494473938,
+        -20.329976103943352,
+        12.643911927298188
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0019_2025-09-10_9a90a0d5.jpg",
+      "date": "2025-09-10",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -35.31249948046219,
+        6.314865629295991,
+        -18.717786418591,
+        18.86218298780271
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0020_2026-02-11_c99a0cdb.jpg",
+      "date": "2026-02-11",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -171.90430225865506,
+        -19.518602557185663,
+        -155.64473095194757,
+        -6.223840952266016
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0021_2026-03-23_4e456fa5.jpg",
+      "date": "2026-03-23",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -31.248773908397148,
+        -31.513131080696724,
+        -26.2043114243082,
+        -22.13083715874696
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0022_2024-07-14_812a3661.jpg",
+      "date": "2024-07-14",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -164.22677151751844,
+        -5.543726070091658,
+        -153.76674622389078,
+        10.525610241192279
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0023_2023-12-31_5c61c100.jpg",
+      "date": "2023-12-31",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -40.494439111118865,
+        1.3812466932549015,
+        -21.572663307398535,
+        18.335123530726392
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0024_2025-09-12_4628f79e.jpg",
+      "date": "2025-09-12",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -129.1073648493183,
+        7.501571146963229,
+        -119.82518551398803,
+        16.66791707044762
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0025_2025-08-24_a2a4fd2d.jpg",
+      "date": "2025-08-24",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -118.12385367748438,
+        -3.208268491612327,
+        -103.46006327089884,
+        13.70005000949519
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0026_2026-03-08_bc51c043.jpg",
+      "date": "2026-03-08",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -36.05415149563419,
+        9.991879651183979,
+        -29.04041875329313,
+        26.933069309114238
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0027_2025-07-17_a9c8d4a3.jpg",
+      "date": "2025-07-17",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -129.9960460670501,
+        -13.827829505528772,
+        -115.72191120958693,
+        7.036800965031073
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0028_2026-01-24_6d8c0f30.jpg",
+      "date": "2026-01-24",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -106.80149046052883,
+        0.45970157457491023,
+        -91.24916099282773,
+        19.78557639003303
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0029_2024-01-07_295d5068.jpg",
+      "date": "2024-01-07",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -32.791082531004946,
+        -39.04947363730857,
+        -19.90581877037758,
+        -31.0281996330026
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0030_2024-05-30_e2980894.jpg",
+      "date": "2024-05-30",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -46.44922408892516,
+        -34.85660255673966,
+        -36.48645692351212,
+        -23.945491790380345
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0031_2026-01-12_96dad6a6.jpg",
+      "date": "2026-01-12",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -34.612791686867155,
+        -1.0023245999195325,
+        -17.840439180906895,
+        15.007726311036068
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0032_2025-04-01_0c7f5400.jpg",
+      "date": "2025-04-01",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -42.88060495702802,
+        -27.33179725610222,
+        -31.05247049726793,
+        -11.605188141400024
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0033_2024-03-12_cc63c44d.jpg",
+      "date": "2024-03-12",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -110.90003614739923,
+        7.805353190859504,
+        -104.26967078262473,
+        16.03276838025035
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0034_2025-10-30_13212d83.jpg",
+      "date": "2025-10-30",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -25.284796749316342,
+        19.18025271696977,
+        -13.252976879967534,
+        29.76686862350464
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0035_2025-05-28_798bc114.jpg",
+      "date": "2025-05-28",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -35.403247593904894,
+        14.967728249540219,
+        -20.259420460377886,
+        23.941869883437207
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0036_2026-04-13_fdf584a6.jpg",
+      "date": "2026-04-13",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -126.99867662048322,
+        3.903963375367706,
+        -108.50616614067118,
+        26.00013377614941
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0037_2024-05-27_0c41f110.jpg",
+      "date": "2024-05-27",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -35.11244442042525,
+        -35.14276322989084,
+        -24.459703030111992,
+        -27.035380141638175
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0038_2025-06-18_be44f1f3.jpg",
+      "date": "2025-06-18",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -40.20673395405451,
+        15.099682144945014,
+        -27.250143423565454,
+        28.528496172463743
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0039_2025-11-07_c40f6fe9.jpg",
+      "date": "2025-11-07",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -129.32559399006703,
+        5.113172968948412,
+        -113.53340188146414,
+        15.47592454387039
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0040_2025-03-08_5cf108d8.jpg",
+      "date": "2025-03-08",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -29.027452587344165,
+        9.71511984222546,
+        -14.524287502401146,
+        16.276291954110675
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0041_2026-02-25_16464771.jpg",
+      "date": "2026-02-25",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -117.94203898854936,
+        -6.562913400438829,
+        -103.82881040678134,
+        6.850135585005282
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0042_2026-04-05_ea844f04.jpg",
+      "date": "2026-04-05",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        63.87170789522796,
+        -28.920751932554698,
+        74.75353564742458,
+        -12.889581686812324
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0043_2025-09-15_5198c4f6.jpg",
+      "date": "2025-09-15",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -146.00754455723956,
+        -14.685156022389512,
+        -132.1854472250876,
+        -4.137199027226043
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0044_2025-02-01_010e07cb.jpg",
+      "date": "2025-02-01",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -160.43355827035762,
+        -34.656290399180136,
+        -143.0125601198977,
+        -14.263352350001844
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0045_2024-09-02_aa43f0a7.jpg",
+      "date": "2024-09-02",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -35.883788720122624,
+        -21.376393424167937,
+        -26.271270838084664,
+        -13.492766366036767
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0046_2024-03-29_df6d339e.jpg",
+      "date": "2024-03-29",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -121.25837589592426,
+        9.38623944269091,
+        -111.26779069037539,
+        19.506335126169354
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0047_2025-09-28_8411d0e7.jpg",
+      "date": "2025-09-28",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -123.2544909861287,
+        -9.22841672094756,
+        -110.24764130183961,
+        1.0323368543671143
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0048_2024-06-09_b3ce8a67.jpg",
+      "date": "2024-06-09",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -25.186481164564853,
+        11.331392322644572,
+        -17.305214095830628,
+        24.687240788864532
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0049_2024-11-17_c1d51128.jpg",
+      "date": "2024-11-17",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -30.373051521009252,
+        -22.7689283115536,
+        -16.158943297406772,
+        -14.11007314830766
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0050_2025-12-04_2587092b.jpg",
+      "date": "2025-12-04",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -112.53125029672223,
+        8.0938488499011,
+        -100.22966426453395,
+        19.598814190317295
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0051_2025-11-17_3b1b6464.jpg",
+      "date": "2025-11-17",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -22.72842908051554,
+        13.583480010416622,
+        -8.96055089794099,
+        32.72076048127887
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0052_2025-01-26_09eb6cd7.jpg",
+      "date": "2025-01-26",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -42.49174886108842,
+        -34.79646134766263,
+        -33.553055833102135,
+        -26.59929162553486
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0053_2025-10-30_56012191.jpg",
+      "date": "2025-10-30",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -37.622281712121726,
+        -46.577421797272756,
+        -14.771081394360918,
+        -36.390568972035595
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0054_2024-09-08_6fc271f3.jpg",
+      "date": "2024-09-08",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -33.14787175677678,
+        -40.070861503950766,
+        -23.308599380004086,
+        -30.25105817629317
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0055_2025-10-31_c5cefb77.jpg",
+      "date": "2025-10-31",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -28.537074433164456,
+        -40.351121502081575,
+        -19.545227877146704,
+        -29.76058932672189
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0056_2024-03-12_b975cb56.jpg",
+      "date": "2024-03-12",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -36.60230425851336,
+        -24.8885063860939,
+        -23.877752331068102,
+        -9.972380843411905
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0057_2024-08-10_300c5e42.jpg",
+      "date": "2024-08-10",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -43.12537319921136,
+        -33.88636810897643,
+        -28.36959772420103,
+        -25.127512496882005
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0058_2024-01-28_1991fc85.jpg",
+      "date": "2024-01-28",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -29.902309267621014,
+        5.1114116826526885,
+        -11.335655292970966,
+        22.43809657964311
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0059_2025-06-12_f236d97b.jpg",
+      "date": "2025-06-12",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -127.81200184895962,
+        6.6477653098243135,
+        -115.33129812892449,
+        16.38813371614479
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "oceano_normal",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\oceano_normal\\oceano_normal_0060_2026-05-12_56fec09f.jpg",
+      "date": "2026-05-12",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -40.5299726184066,
+        -37.071840586036906,
+        -27.52663681941971,
+        -23.819876900369156
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0001_2026-02-16_0609f48a.jpg",
+      "date": "2026-02-16",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -102.86919517743009,
+        -8.427147786847694,
+        -88.07378042060381,
+        3.5281412936659855
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0002_2025-05-27_2810ab41.jpg",
+      "date": "2025-05-27",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        30.956424796082608,
+        -25.0600761680505,
+        42.36445375170095,
+        -9.321930570676457
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0003_2024-04-26_4bcc36d6.jpg",
+      "date": "2024-04-26",
+      "layer": "GHRSST_L4_MUR25_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        122.59612396793565,
+        2.8953080946705683,
+        134.3005381602309,
+        9.358912426907096
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0004_2024-10-12_7f8f6f1b.jpg",
+      "date": "2024-10-12",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -127.17768881774113,
+        -7.806037643435906,
+        -120.46974837349013,
+        -0.7858983719290902
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0005_2024-10-09_87b98b22.jpg",
+      "date": "2024-10-09",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        41.806471576573514,
+        -26.31246976072105,
+        48.870101823459834,
+        -20.327151807170214
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0006_2025-10-03_ca2fab5f.jpg",
+      "date": "2025-10-03",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -90.70467227200078,
+        20.349691493357007,
+        -71.35412337197538,
+        30.28121752131749
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0007_2024-04-01_02cfcd28.jpg",
+      "date": "2024-04-01",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -122.60055573061516,
+        8.131365573224826,
+        -110.78822659853844,
+        27.415887798806402
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0008_2025-07-28_88b6996e.jpg",
+      "date": "2025-07-28",
+      "layer": "MODIS_Terra_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -38.456108093703286,
+        -45.45529794661316,
+        -32.01699121984117,
+        -33.37152479111777
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0009_2025-03-13_53cf6f65.jpg",
+      "date": "2025-03-13",
+      "layer": "GHRSST_L4_MUR25_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -84.44634123336036,
+        18.130707274821003,
+        -67.99730890595534,
+        29.694400421996377
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0010_2025-07-31_b80246b7.jpg",
+      "date": "2025-07-31",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -79.77672684361077,
+        11.903383162497114,
+        -62.125534677295256,
+        30.817770215730054
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0011_2024-04-30_917312a7.jpg",
+      "date": "2024-04-30",
+      "layer": "MODIS_Terra_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        116.85654267394375,
+        5.986219687977946,
+        131.81381777706386,
+        23.169495689124226
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0012_2024-10-09_502ed9c0.jpg",
+      "date": "2024-10-09",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        45.12988838667181,
+        -44.60039678885927,
+        53.77876889724516,
+        -25.393323574240103
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0013_2025-01-26_3b79a866.jpg",
+      "date": "2025-01-26",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -70.03260964513234,
+        2.78393109881032,
+        -52.530237820315435,
+        17.47638488779395
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0014_2026-04-15_330fd230.jpg",
+      "date": "2026-04-15",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        37.19731391871443,
+        -30.802166642431313,
+        46.74625635159927,
+        -22.76670580890959
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0015_2025-03-25_758c98ec.jpg",
+      "date": "2025-03-25",
+      "layer": "MODIS_Terra_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        120.69194824430909,
+        -4.545861951955173,
+        129.6112639739196,
+        16.388915809678146
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0016_2025-02-04_af2a067b.jpg",
+      "date": "2025-02-04",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        115.15582356511325,
+        19.44569153822651,
+        131.59930529511752,
+        27.084412914869745
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0017_2024-11-04_4738b357.jpg",
+      "date": "2024-11-04",
+      "layer": "MODIS_Terra_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -72.99950485660266,
+        3.284967771146409,
+        -57.412501979204606,
+        14.14190460343758
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0018_2025-08-22_2d7b7ec9.jpg",
+      "date": "2025-08-22",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -44.767392520214194,
+        -33.219231185082464,
+        -35.21166079392454,
+        -18.67635118432831
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0019_2024-04-01_bc0cc710.jpg",
+      "date": "2024-04-01",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -83.51167703365181,
+        3.700868044370729,
+        -71.68856937914767,
+        20.52915156059892
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0020_2024-04-20_6f99773b.jpg",
+      "date": "2024-04-20",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -126.71282325368684,
+        11.553511092142823,
+        -109.15181459276603,
+        26.689830122841965
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0021_2024-09-25_de7b1dab.jpg",
+      "date": "2024-09-25",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        140.6770673836775,
+        12.938750314397787,
+        153.4982784302887,
+        24.82578437961805
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0022_2026-03-07_4f2d7498.jpg",
+      "date": "2026-03-07",
+      "layer": "GHRSST_L4_MUR25_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        49.631046798858534,
+        -20.315124364201914,
+        63.6272034151437,
+        -5.586797256038084
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0023_2024-08-19_b853c03e.jpg",
+      "date": "2024-08-19",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        137.71898011542257,
+        1.6842978400804132,
+        153.4410757310666,
+        12.814719982395097
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0024_2024-04-04_6176276b.jpg",
+      "date": "2024-04-04",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        148.7168764657228,
+        -4.777729387903477,
+        157.86006488259383,
+        7.657111411754121
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0025_2025-03-27_4d1047bb.jpg",
+      "date": "2025-03-27",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -78.42990296942799,
+        17.36912076509669,
+        -64.41231648410513,
+        24.45340268741332
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0026_2025-02-04_5e4fdab6.jpg",
+      "date": "2025-02-04",
+      "layer": "GHRSST_L4_MUR25_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -111.71706798626779,
+        -7.5600332664522,
+        -100.1628327475637,
+        7.047823872137779
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0027_2025-07-20_109f3bb0.jpg",
+      "date": "2025-07-20",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        34.018362311290964,
+        -27.21207694426725,
+        52.561246459415706,
+        -9.3313019811036
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0028_2024-08-17_db010985.jpg",
+      "date": "2024-08-17",
+      "layer": "GHRSST_L4_MUR25_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        43.403361536037515,
+        -32.80859897793006,
+        59.78564997608955,
+        -22.547192884126282
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0029_2025-11-24_405ea002.jpg",
+      "date": "2025-11-24",
+      "layer": "MODIS_Terra_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -62.96511046536373,
+        12.495199525926324,
+        -50.95906585041235,
+        26.13329388285206
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0030_2024-02-17_063aad9a.jpg",
+      "date": "2024-02-17",
+      "layer": "MODIS_Terra_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -53.07253111549693,
+        -42.324286181445935,
+        -35.85572143286933,
+        -25.609444076543213
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0031_2024-01-07_bcd38156.jpg",
+      "date": "2024-01-07",
+      "layer": "MODIS_Terra_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        45.665474074297855,
+        -33.1857415379043,
+        59.77163031553666,
+        -16.372351918155346
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0032_2026-02-01_6aff582b.jpg",
+      "date": "2026-02-01",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -121.53875037990643,
+        9.118232457484218,
+        -112.09130970405815,
+        21.957271305981727
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0033_2024-07-27_279cff00.jpg",
+      "date": "2024-07-27",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -46.268430805602804,
+        -37.436670533928655,
+        -28.61131833633814,
+        -27.18342603208645
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0034_2024-07-05_ce701c4e.jpg",
+      "date": "2024-07-05",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        117.59432002867405,
+        -7.62068696314544,
+        126.67851862115839,
+        9.445182136010557
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0035_2024-06-15_253eb229.jpg",
+      "date": "2024-06-15",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -122.5090483342707,
+        6.9309980461350635,
+        -110.62186689169785,
+        22.340277158603286
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0036_2025-04-10_6c0b660d.jpg",
+      "date": "2025-04-10",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        34.22309365971628,
+        -27.2858564247626,
+        40.90266348306491,
+        -17.20021245321114
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0037_2025-09-15_7bca97e4.jpg",
+      "date": "2025-09-15",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        28.430703350885846,
+        -37.63671810855372,
+        44.78464961055009,
+        -28.544275451547595
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0038_2026-05-20_70fe2748.jpg",
+      "date": "2026-05-20",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -37.9563381851884,
+        -49.26893536517193,
+        -20.298140427780087,
+        -32.478638088007905
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0039_2024-09-27_b7b4c4b4.jpg",
+      "date": "2024-09-27",
+      "layer": "GHRSST_L4_MUR25_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        49.149205859596464,
+        -39.481390576910734,
+        61.368490304206375,
+        -29.04036754496243
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0040_2026-01-31_f102ea23.jpg",
+      "date": "2026-01-31",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        23.52153562749018,
+        -34.78096379080676,
+        32.48857345278152,
+        -23.088775664420197
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0041_2025-01-17_1fb1ea10.jpg",
+      "date": "2025-01-17",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        135.61941440456692,
+        15.46751122693685,
+        141.9798866152781,
+        34.33568315288672
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0042_2024-08-12_196ed802.jpg",
+      "date": "2024-08-12",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        129.75317069105543,
+        -5.628762950872177,
+        141.41425416776315,
+        6.674006918626059
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0043_2024-05-14_42ae2d3c.jpg",
+      "date": "2024-05-14",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -120.05837108215917,
+        -5.928077334115673,
+        -101.20182527979088,
+        10.993096781399718
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0044_2025-05-04_3a24c3da.jpg",
+      "date": "2025-05-04",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -45.92493820868319,
+        -36.499985584147566,
+        -31.80150855664875,
+        -20.225942009478707
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0045_2024-09-29_4ea588eb.jpg",
+      "date": "2024-09-29",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -37.69433894384538,
+        -40.705582918620614,
+        -26.905816356344065,
+        -33.30712778011679
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0046_2024-09-15_ebcd22d3.jpg",
+      "date": "2024-09-15",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -113.74834559655693,
+        5.877356782968665,
+        -104.74941734586542,
+        17.427044959313243
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0047_2024-10-12_c3a8dea9.jpg",
+      "date": "2024-10-12",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        33.83116075707983,
+        -25.763478043586318,
+        43.262389890718104,
+        -14.06298922162077
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0048_2026-04-23_6ed9f8de.jpg",
+      "date": "2026-04-23",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -38.01075904860714,
+        -39.03150808241468,
+        -20.090537727583865,
+        -17.430256729759876
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0049_2026-02-18_29eac2b6.jpg",
+      "date": "2026-02-18",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -53.687494538072336,
+        -34.562858935044176,
+        -36.70104373496385,
+        -26.579180009205114
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0050_2025-12-14_47ed2c34.jpg",
+      "date": "2025-12-14",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -126.84525330121775,
+        0.05110822141394333,
+        -115.10485557018,
+        8.855820046360675
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0051_2026-01-26_a8b96955.jpg",
+      "date": "2026-01-26",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        -36.002922020856964,
+        -50.73521259569614,
+        -26.088739339569706,
+        -39.49577148766275
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0052_2025-10-25_1125b301.jpg",
+      "date": "2025-10-25",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        36.50777308055414,
+        -34.98042163828424,
+        47.56234445136394,
+        -20.889724739500814
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0053_2024-10-10_5de4c171.jpg",
+      "date": "2024-10-10",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -43.35385609679296,
+        -35.580844215049346,
+        -32.208626833884104,
+        -21.44556386162717
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0054_2026-02-21_7f6966e8.jpg",
+      "date": "2026-02-21",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        131.1056583859356,
+        14.969540101767077,
+        145.10606770689498,
+        23.022092482367785
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0055_2026-03-05_198222e8.jpg",
+      "date": "2026-03-05",
+      "layer": "GHRSST_L4_MUR25_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        141.9871963331558,
+        -1.4998211575440328,
+        155.36295640604413,
+        11.701136320530292
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0056_2025-12-24_7fe97cba.jpg",
+      "date": "2025-12-24",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -113.70005677770381,
+        1.2566372297119122,
+        -100.11827803079606,
+        14.032400681922514
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0057_2025-02-17_14004a8b.jpg",
+      "date": "2025-02-17",
+      "layer": "VIIRS_SNPP_L2_Sea_Surface_Temp_Day",
+      "bbox": [
+        26.17995438066841,
+        -27.252868270660215,
+        45.35631909793932,
+        -11.135805364095244
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0058_2024-09-24_3c8a0709.jpg",
+      "date": "2024-09-24",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -114.2144937677685,
+        10.62195987351392,
+        -102.2406678202272,
+        29.30647473458986
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0059_2024-08-31_d764011e.jpg",
+      "date": "2024-08-31",
+      "layer": "GHRSST_L4_MUR_Sea_Surface_Temperature_Anomalies",
+      "bbox": [
+        -81.5380201566911,
+        3.5347289939317568,
+        -69.41055869355752,
+        13.907013827386546
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "anomalia_termica",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\anomalia_termica\\anomalia_termica_0060_2024-09-10_89d4e901.jpg",
+      "date": "2024-09-10",
+      "layer": "MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily",
+      "bbox": [
+        -116.64894765666229,
+        0.46759799304284044,
+        -105.78264231471461,
+        15.437905187400258
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0001_2025-09-11_549a02ce.jpg",
+      "date": "2025-09-11",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -109.18733341940529,
+        18.394199707198904,
+        -95.81205191217933,
+        37.874655575140046
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0002_2024-03-05_2189a5f6.jpg",
+      "date": "2024-03-05",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -94.811825617505,
+        13.929012762268215,
+        -83.89689293184131,
+        24.994589951040414
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0003_2026-02-28_c97bf166.jpg",
+      "date": "2026-02-28",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        41.58697937700306,
+        -30.147500260955677,
+        55.96775541385197,
+        -19.50440873279337
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0004_2025-05-02_9a3d0c5e.jpg",
+      "date": "2025-05-02",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        151.9661364940584,
+        -3.524875852240349,
+        159.86935287763077,
+        7.290981313917891
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0005_2026-05-04_bbf7b969.jpg",
+      "date": "2026-05-04",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        70.49508312978519,
+        -16.71423243640481,
+        85.83054625546941,
+        -2.6621964415782875
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0006_2024-12-19_1e6d311f.jpg",
+      "date": "2024-12-19",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        49.79801247888381,
+        -11.366030592788638,
+        66.06316425483115,
+        5.140613056150858
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0007_2024-03-24_aab510c8.jpg",
+      "date": "2024-03-24",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        160.81390123027788,
+        -4.9130376701094125,
+        165.3798247757471,
+        5.167770097128958
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0008_2024-03-11_86fcc3d0.jpg",
+      "date": "2024-03-11",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        157.2315592930115,
+        -26.422925826329255,
+        166.97529701994534,
+        -15.269964374815423
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0009_2025-02-04_388d0afb.jpg",
+      "date": "2025-02-04",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -119.3840488270827,
+        4.127202183562519,
+        -105.98783142663166,
+        19.32357998928736
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0010_2025-05-07_9b0b1f15.jpg",
+      "date": "2025-05-07",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        68.2298437450164,
+        -17.485078601245906,
+        82.84624630910626,
+        -12.789429569577248
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0011_2026-02-18_f33895e0.jpg",
+      "date": "2026-02-18",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        158.2954459743683,
+        -8.585444224005265,
+        171.91316310313468,
+        1.0455346009595319
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0012_2026-04-24_f9341862.jpg",
+      "date": "2026-04-24",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        138.39449439141015,
+        19.781405390712766,
+        155.56425879592553,
+        30.1030103639015
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0013_2024-04-05_2ccc16a4.jpg",
+      "date": "2024-04-05",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        72.80883029488244,
+        -10.803045060145774,
+        88.20411599534866,
+        4.308623747214952
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0014_2024-03-19_4120c730.jpg",
+      "date": "2024-03-19",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -108.92830604119193,
+        1.215069027404815,
+        -101.85300145151598,
+        10.577528635146018
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0015_2026-05-06_5b23a809.jpg",
+      "date": "2026-05-06",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        50.050274958384044,
+        -31.519181982473512,
+        57.07464948900284,
+        -19.150815650951767
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0016_2025-05-18_3290a019.jpg",
+      "date": "2025-05-18",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        146.66243460010526,
+        -9.32760837510612,
+        158.8822405362362,
+        1.5734409309553827
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0017_2025-09-05_7f2197cd.jpg",
+      "date": "2025-09-05",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -67.20794550193214,
+        12.04555240469497,
+        -46.22583935004286,
+        27.181859671151837
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0018_2024-11-09_f451dbbb.jpg",
+      "date": "2024-11-09",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -81.87083012148811,
+        1.2813382908545536,
+        -68.59013415328096,
+        12.112766271467308
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0019_2026-04-15_de6b997f.jpg",
+      "date": "2026-04-15",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        70.81697716682851,
+        -29.201454596098294,
+        86.22648267618496,
+        -21.04560846752021
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0020_2024-04-11_d1764a52.jpg",
+      "date": "2024-04-11",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        43.49514308299886,
+        -9.952266219441414,
+        60.881935975674665,
+        -0.8483458968189952
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0021_2025-04-22_2a6e3af5.jpg",
+      "date": "2025-04-22",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        120.84471528751274,
+        18.207207375038728,
+        132.47951046240385,
+        32.542943399732685
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0022_2024-01-31_613f0117.jpg",
+      "date": "2024-01-31",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        77.57698153135388,
+        -22.372967590968322,
+        92.24344885949114,
+        -9.018788834421695
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0023_2025-02-19_82cf766e.jpg",
+      "date": "2025-02-19",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        131.25760647495503,
+        1.88844317644541,
+        141.83505021554404,
+        18.079527804401422
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0024_2025-05-15_ad889d30.jpg",
+      "date": "2025-05-15",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -69.43300967670585,
+        23.517662790821852,
+        -54.37244374469448,
+        39.5500227792161
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0025_2025-05-12_cd9a9d55.jpg",
+      "date": "2025-05-12",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        153.9253294610139,
+        -12.122785312580802,
+        172.49565782234563,
+        -2.500384245373902
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0026_2024-06-01_cf7c65a3.jpg",
+      "date": "2024-06-01",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -121.25474872504292,
+        10.318932488053687,
+        -101.65936485397823,
+        13.803376834760051
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0027_2025-02-21_7445ea80.jpg",
+      "date": "2025-02-21",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -122.83172039654565,
+        8.748097586599563,
+        -108.27861352570127,
+        27.32601197054607
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0028_2024-05-24_b9520eaf.jpg",
+      "date": "2024-05-24",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -68.36023382656595,
+        25.429811835113917,
+        -51.451747266137275,
+        40.16577611275714
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0029_2025-01-29_befc28b7.jpg",
+      "date": "2025-01-29",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        139.97430431063802,
+        7.415474660190188,
+        153.09690599403888,
+        20.591702834675022
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0030_2026-03-08_233d8a06.jpg",
+      "date": "2026-03-08",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        132.16371025327368,
+        -4.998635774824943,
+        139.3915803743792,
+        6.974794473681419
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0031_2024-03-27_7a561553.jpg",
+      "date": "2024-03-27",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        146.71240546645186,
+        13.551190301373383,
+        162.4128226487681,
+        27.50946621103932
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0032_2024-12-07_e637c3a7.jpg",
+      "date": "2024-12-07",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        125.9457600100513,
+        21.636527032138893,
+        134.56973818870864,
+        33.19816652677715
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0033_2024-09-23_024b411d.jpg",
+      "date": "2024-09-23",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        69.41308456005731,
+        -29.035179629345446,
+        84.8295813398266,
+        -15.712194784676754
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0034_2024-08-04_7a0db178.jpg",
+      "date": "2024-08-04",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        130.6197868576765,
+        -10.312290733836859,
+        144.1526427239567,
+        -1.04207833178483
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0035_2025-01-13_a998538d.jpg",
+      "date": "2025-01-13",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        130.90726569258044,
+        -25.492825839282244,
+        149.78090361424626,
+        -10.73376274150888
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0036_2025-12-26_473888bc.jpg",
+      "date": "2025-12-26",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        139.05983500908863,
+        16.090366888987727,
+        152.31232852530047,
+        23.138728444777417
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0037_2025-01-30_dfa6ffd1.jpg",
+      "date": "2025-01-30",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        69.9115858690085,
+        -26.05748021960982,
+        89.9635098894063,
+        -17.05655181543858
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0038_2024-02-09_2557f482.jpg",
+      "date": "2024-02-09",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -82.15500902816775,
+        5.476128133203981,
+        -71.79952683858785,
+        20.080471510940185
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0039_2025-04-15_4489fa9e.jpg",
+      "date": "2025-04-15",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        80.37670737043189,
+        -10.888405213196851,
+        87.10012262251709,
+        -3.5852134375882656
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0040_2024-11-19_9a376fb3.jpg",
+      "date": "2024-11-19",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        140.060643157902,
+        -19.9643335630954,
+        155.79105887357875,
+        -12.499726492683921
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0041_2025-05-16_3db08b98.jpg",
+      "date": "2025-05-16",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -66.41396710781699,
+        9.693782489717794,
+        -51.97692626849762,
+        25.987063260509352
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0042_2025-04-14_5af2a979.jpg",
+      "date": "2025-04-14",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        137.2441638861134,
+        -19.492561851129473,
+        148.53528925661504,
+        -8.888269458884256
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0043_2024-05-22_5284b3f5.jpg",
+      "date": "2024-05-22",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        66.29549358977566,
+        -27.601799441463147,
+        85.5453670673658,
+        -14.780795025156621
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0044_2024-04-25_522b379e.jpg",
+      "date": "2024-04-25",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        70.25261679952037,
+        -23.974496959841698,
+        84.49154994383065,
+        -6.596632702418567
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0045_2025-03-22_f7ca103a.jpg",
+      "date": "2025-03-22",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        62.577961285352565,
+        -24.12996194127851,
+        75.14691232898183,
+        -9.343879592156272
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0046_2024-10-08_37b00cde.jpg",
+      "date": "2024-10-08",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        134.52807547358807,
+        -4.249743444294376,
+        149.2607915409866,
+        11.941656712814673
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0047_2024-10-13_269343d9.jpg",
+      "date": "2024-10-13",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        139.7218590161255,
+        8.247226355504372,
+        150.75556755033517,
+        25.73518588746009
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0048_2024-05-08_428f6773.jpg",
+      "date": "2024-05-08",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -87.14702155982532,
+        12.835224795947958,
+        -73.1716516466803,
+        24.125590317697686
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0049_2025-06-06_7a1abb4e.jpg",
+      "date": "2025-06-06",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -70.76095099992983,
+        14.309994957955269,
+        -57.76136051378967,
+        29.30909188094832
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0050_2025-07-21_783d17ff.jpg",
+      "date": "2025-07-21",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        137.726736599335,
+        -10.903266960714804,
+        152.43656183290148,
+        3.8553538376236935
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0051_2025-08-15_62399b94.jpg",
+      "date": "2025-08-15",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        145.9449899770419,
+        21.822124749309324,
+        160.44931167560583,
+        37.35523911988011
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0052_2024-05-21_9a5f8dcc.jpg",
+      "date": "2024-05-21",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        45.88675806322007,
+        -16.774440309391018,
+        58.50108833652928,
+        -2.0578140279592056
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0053_2026-01-31_c8d97634.jpg",
+      "date": "2026-01-31",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -81.67890641129533,
+        14.474030643562493,
+        -69.09540715751217,
+        25.843707474908413
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0054_2026-02-09_22a3c6e9.jpg",
+      "date": "2026-02-09",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        153.73584179544238,
+        -28.746271222097118,
+        162.28648557616276,
+        -10.3138553259291
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0055_2025-06-28_e337fad3.jpg",
+      "date": "2025-06-28",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        109.17195204701221,
+        10.34073083829946,
+        126.12315398622046,
+        20.741850079128525
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0056_2025-03-21_17ba4910.jpg",
+      "date": "2025-03-21",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        66.59952677441484,
+        -7.012541725304436,
+        76.62192638762292,
+        6.588153881964654
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0057_2026-05-13_32eb0e0c.jpg",
+      "date": "2026-05-13",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        142.2937582241004,
+        -4.615863561671432,
+        162.0319396223363,
+        7.76680048296252
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0058_2025-01-28_290b454e.jpg",
+      "date": "2025-01-28",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        61.73810212525712,
+        -32.240313016493175,
+        76.89324708977671,
+        -18.726808004598396
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0059_2024-07-01_8b7683e2.jpg",
+      "date": "2024-07-01",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        46.44357389963081,
+        -31.49546215160363,
+        55.642121658419484,
+        -18.58141882768203
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "tempestade",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\tempestade\\tempestade_0060_2025-01-19_101ae6d0.jpg",
+      "date": "2025-01-19",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        113.62626669837748,
+        18.564981122281907,
+        128.02543698154858,
+        31.92803146086932
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0001_2024-07-22_78c10438.jpg",
+      "date": "2024-07-22",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        135.43798255345413,
+        -35.49985888081792,
+        147.64951231830514,
+        -23.090004086756096
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0002_2024-06-15_800a8792.jpg",
+      "date": "2024-06-15",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        129.0882761035864,
+        -30.98896987810181,
+        138.85314773124608,
+        -21.070274466349602
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0003_2025-03-23_7d771ca6.jpg",
+      "date": "2025-03-23",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -43.932216538397995,
+        -7.155305450842574,
+        -35.1318493300963,
+        6.256342683592474
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0004_2023-12-30_3e55f2ea.jpg",
+      "date": "2023-12-30",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -141.90313373864623,
+        -6.920012138730226,
+        -128.5144196716215,
+        -0.8395274202360907
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0005_2025-02-09_80907f74.jpg",
+      "date": "2025-02-09",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -149.7268343775353,
+        2.8970559492775982,
+        -137.27809467288634,
+        16.24318682155931
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0006_2025-03-15_6254f3b7.jpg",
+      "date": "2025-03-15",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -166.63809717041403,
+        0.4178841413389742,
+        -148.04591654899087,
+        14.645725632952317
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0007_2024-03-29_39746036.jpg",
+      "date": "2024-03-29",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        133.1290160653095,
+        -20.80782534254764,
+        138.64717609506042,
+        -4.508297169556799
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0008_2024-07-22_caeb6d8b.jpg",
+      "date": "2024-07-22",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        46.12842465680653,
+        0.9392990314312781,
+        56.830317841429,
+        17.57290587010999
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0009_2024-07-02_093f11c1.jpg",
+      "date": "2024-07-02",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        111.05921395822246,
+        1.6499782152560947,
+        122.12638368391714,
+        12.257316695403421
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0010_2024-02-14_41d9b28e.jpg",
+      "date": "2024-02-14",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -152.37311105404783,
+        0.430034355844227,
+        -141.876315917971,
+        12.377977669178524
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0011_2025-09-14_dfa33c26.jpg",
+      "date": "2025-09-14",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        50.48085095985995,
+        2.562452838338907,
+        70.53118384697703,
+        14.322611203512727
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0012_2024-10-10_d6935545.jpg",
+      "date": "2024-10-10",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -55.67972131641381,
+        -32.552892150599924,
+        -42.822318331139435,
+        -12.756452891442969
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0013_2026-03-21_5fe94be9.jpg",
+      "date": "2026-03-21",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        124.37725599991794,
+        -8.01817641141973,
+        141.21770432212736,
+        1.7047188494387573
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0014_2025-04-27_8c7ec581.jpg",
+      "date": "2025-04-27",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -135.79647590840023,
+        12.696622997917537,
+        -118.2701780210039,
+        26.772331421330193
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0015_2025-12-26_6010a519.jpg",
+      "date": "2025-12-26",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -152.06388544962616,
+        1.6218604865607,
+        -144.25709303232995,
+        10.094835290842664
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0016_2024-01-06_0a7fbc0b.jpg",
+      "date": "2024-01-06",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        60.98156664717803,
+        -11.694834905028767,
+        79.31202312282734,
+        4.538247387891307
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0017_2024-05-11_f12b374b.jpg",
+      "date": "2024-05-11",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        109.32586331009401,
+        -7.740120257585603,
+        118.80618024052838,
+        -1.1682473663764963
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0018_2024-04-10_9332dbeb.jpg",
+      "date": "2024-04-10",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -158.48562091435508,
+        -7.153570728568639,
+        -145.59841097096668,
+        7.187018560065642
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0019_2025-05-20_7c860fdc.jpg",
+      "date": "2025-05-20",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        62.922588227545255,
+        -6.416016542610646,
+        78.45397835348852,
+        6.64945163510426
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0020_2025-07-06_fca2975a.jpg",
+      "date": "2025-07-06",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        115.55618123406188,
+        -14.506075167613215,
+        125.45798595612762,
+        -5.072396947955591
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0021_2025-06-19_80c0b898.jpg",
+      "date": "2025-06-19",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        34.21364816700891,
+        3.1615173655734994,
+        49.810493967628744,
+        8.7747984741372
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0022_2024-04-25_85d30135.jpg",
+      "date": "2024-04-25",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -33.99223449553655,
+        10.490579689723658,
+        -23.564338800109468,
+        25.9061573162818
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0023_2024-12-02_827765a5.jpg",
+      "date": "2024-12-02",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        50.64741207638194,
+        -0.38043835386247515,
+        59.994182424514754,
+        9.62490099893279
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0024_2026-05-13_46ba8581.jpg",
+      "date": "2026-05-13",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -45.87962179978045,
+        -31.228449740092834,
+        -28.913016454895832,
+        -26.119708035734632
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0025_2025-03-27_dcc5d7ef.jpg",
+      "date": "2025-03-27",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -31.218072422086035,
+        -3.0766300265779734,
+        -17.83961130809308,
+        8.703465106889947
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0026_2026-02-02_ce9ac683.jpg",
+      "date": "2026-02-02",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -66.16360989306811,
+        -14.184221781838573,
+        -51.6323705999991,
+        -0.2625041917966682
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0027_2024-10-21_4ec49583.jpg",
+      "date": "2024-10-21",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -52.24069557012176,
+        -30.558910549281546,
+        -35.39991575866503,
+        -14.753057284130175
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0028_2025-05-01_60352ee5.jpg",
+      "date": "2025-05-01",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -16.79080286080519,
+        -6.035389093411055,
+        -0.7234859693291309,
+        6.44676985840589
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0029_2024-11-28_7ba62090.jpg",
+      "date": "2024-11-28",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -148.78206847823736,
+        5.492894978315398,
+        -134.95615229362846,
+        18.196107841158717
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0030_2024-10-22_2b7d2de0.jpg",
+      "date": "2024-10-22",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -61.94187333297647,
+        -8.68915950343375,
+        -43.10061092506072,
+        2.5543475882476416
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0031_2025-12-07_1d88d184.jpg",
+      "date": "2025-12-07",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -60.83250601165614,
+        -7.597548247209667,
+        -48.616929978530074,
+        3.12186822169532
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0032_2026-03-03_322143ae.jpg",
+      "date": "2026-03-03",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -158.53887719845576,
+        5.223338732691384,
+        -144.1040345753878,
+        27.27976058479202
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0033_2026-04-22_9a665f1a.jpg",
+      "date": "2026-04-22",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -140.94133981347508,
+        -0.8310411656037888,
+        -128.789578960085,
+        9.380859448879972
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0034_2025-07-24_98975f7f.jpg",
+      "date": "2025-07-24",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        131.53605489099425,
+        -20.480681080896872,
+        140.67930388895968,
+        -8.185118277437988
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0035_2025-07-11_d3a17a83.jpg",
+      "date": "2025-07-11",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -22.574443547197717,
+        -11.607366159975154,
+        -12.397707466461268,
+        2.248641521989364
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0036_2024-11-01_5ddaed2e.jpg",
+      "date": "2024-11-01",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        47.627639446799094,
+        -17.395700569958965,
+        57.588087433265585,
+        -9.812476361099236
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0037_2024-10-14_b3ece9c8.jpg",
+      "date": "2024-10-14",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -50.92799380911945,
+        -9.179478282626798,
+        -32.09865782129988,
+        -2.0479159234211464
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0038_2024-03-12_7626364d.jpg",
+      "date": "2024-03-12",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -158.80005432280095,
+        -1.3792981240802966,
+        -151.9907944848098,
+        9.550570952729068
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0039_2025-06-16_bbf298d5.jpg",
+      "date": "2025-06-16",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -56.070737141377386,
+        -10.339406160588428,
+        -41.814585571602024,
+        1.8462852691089688
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0040_2024-06-10_32e7e0af.jpg",
+      "date": "2024-06-10",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -150.9637547014203,
+        10.968234173788968,
+        -139.59651577724733,
+        21.510650576948457
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0041_2025-05-02_2a70fbb7.jpg",
+      "date": "2025-05-02",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -30.21165944820926,
+        -3.3481780282229154,
+        -18.8410950436058,
+        6.728466324703037
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0042_2025-02-04_e14b0ad1.jpg",
+      "date": "2025-02-04",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        134.56123112759428,
+        -21.97624720348231,
+        143.42052167091688,
+        -9.12742297399014
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0043_2025-09-06_eb17809c.jpg",
+      "date": "2025-09-06",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -32.536586751378735,
+        -5.8157283486561475,
+        -19.927325432641616,
+        11.178124277576657
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0044_2025-03-20_0c760d7e.jpg",
+      "date": "2025-03-20",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -23.0373257402929,
+        5.813091866493787,
+        -14.768251999129529,
+        26.20277525955619
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0045_2025-05-24_3c38a8db.jpg",
+      "date": "2025-05-24",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -165.65847103277738,
+        8.805432691554959,
+        -148.7186403299672,
+        25.761571709948605
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0046_2026-02-11_af3442f8.jpg",
+      "date": "2026-02-11",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -30.11033911290729,
+        -8.485641474841719,
+        -10.155866864360323,
+        3.077510080858261
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0047_2024-12-26_563ad380.jpg",
+      "date": "2024-12-26",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        109.30626111958733,
+        -11.520086825521307,
+        123.80472227277656,
+        4.655510936421439
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0048_2025-06-05_7f59795e.jpg",
+      "date": "2025-06-05",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -31.403357967964936,
+        -7.821753868107172,
+        -27.431815554230294,
+        -0.45600547073791464
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0049_2026-01-25_e476fb4b.jpg",
+      "date": "2026-01-25",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        63.03991209000441,
+        -11.45162422136564,
+        72.90563455622365,
+        -2.61034163430538
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0050_2025-03-12_ec214b3e.jpg",
+      "date": "2025-03-12",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -39.00689359951746,
+        -17.3359535489773,
+        -28.67542541482633,
+        -7.778317750122916
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0051_2025-03-09_5cb9c0bd.jpg",
+      "date": "2025-03-09",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        42.78549199821809,
+        -14.366329670661285,
+        50.21235668121067,
+        -2.462235913598545
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0052_2025-06-23_aebd92cb.jpg",
+      "date": "2025-06-23",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        36.540075669284924,
+        -19.27790142326235,
+        46.01156310020302,
+        -5.815984067775741
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0053_2025-05-27_2d53d669.jpg",
+      "date": "2025-05-27",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -33.75201855710407,
+        -4.411889684995879,
+        -17.378479620829935,
+        8.719438271839245
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0054_2026-01-23_0a9fe7cf.jpg",
+      "date": "2026-01-23",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        54.76465906632249,
+        -3.2713899277644796,
+        66.64614739324293,
+        7.606541717294716
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0055_2025-11-26_a2b9a04b.jpg",
+      "date": "2025-11-26",
+      "layer": "MODIS_Terra_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -34.29429794837415,
+        -8.528144211364577,
+        -23.320268832081457,
+        5.740368288908566
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0056_2024-02-08_8dae138d.jpg",
+      "date": "2024-02-08",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -158.37873969311835,
+        -3.2780050165212966,
+        -147.0310803810909,
+        10.338448938590485
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0057_2024-02-28_06df0dd8.jpg",
+      "date": "2024-02-28",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        66.75295150183555,
+        -12.328145689241708,
+        82.24821818146225,
+        0.0826476994388452
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0058_2024-10-13_0d232a53.jpg",
+      "date": "2024-10-13",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -38.1814174806222,
+        -1.3742046006823756,
+        -23.094150110635983,
+        7.010724951249526
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0059_2026-02-07_a6968166.jpg",
+      "date": "2026-02-07",
+      "layer": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -59.377083363616876,
+        -20.768831954422975,
+        -41.44883983283057,
+        -8.685346031560059
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "nuvens",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\nuvens\\nuvens_0060_2025-10-20_353dabab.jpg",
+      "date": "2025-10-20",
+      "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+      "bbox": [
+        -35.41702215036663,
+        17.20367795377283,
+        -25.18565081246112,
+        27.379491515368905
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0001_2025-05-28_713c0fb3.jpg",
+      "date": "2025-05-28",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        130.8739378633896,
+        2.9613178121062154,
+        145.98874455071496,
+        15.194452191897732
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0002_2026-01-04_97222696.jpg",
+      "date": "2026-01-04",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        120.1448568512712,
+        -4.596796818145637,
+        131.24945194669684,
+        11.208569543299467
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0003_2025-01-06_3e9d02b5.jpg",
+      "date": "2025-01-06",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -63.16954738647632,
+        -3.5163472371405495,
+        -50.19748080045663,
+        6.455056172154335
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0004_2024-06-10_0cb95922.jpg",
+      "date": "2024-06-10",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        -10.833720634119366,
+        5.329367372816171,
+        2.787514167273166,
+        20.384396726590303
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0005_2024-01-03_475a7490.jpg",
+      "date": "2024-01-03",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        9.26713921419576,
+        -33.19096985616269,
+        18.562540653370604,
+        -18.525750705861462
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0006_2026-02-16_a4991a5a.jpg",
+      "date": "2026-02-16",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        -87.20321421988031,
+        -10.328459246043192,
+        -74.07152748416648,
+        9.199948171992542
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0007_2024-06-01_91fef6f9.jpg",
+      "date": "2024-06-01",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        0.8668336283972877,
+        -33.053320651947786,
+        17.35984238422585,
+        -26.189855040595276
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0008_2024-06-11_0ac53ff5.jpg",
+      "date": "2024-06-11",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -88.55644501717737,
+        23.19472896034497,
+        -83.25362176185621,
+        34.18570909269053
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0009_2025-10-24_8aa6b08d.jpg",
+      "date": "2025-10-24",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        9.596940914979225,
+        -41.72244634963321,
+        27.545082143156755,
+        -21.58917627268026
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0010_2024-06-22_46d47e0f.jpg",
+      "date": "2024-06-22",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        116.61380088377481,
+        4.0028393439546175,
+        125.1566645972912,
+        13.105162802458075
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0011_2026-03-03_f8d1cb55.jpg",
+      "date": "2026-03-03",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        8.988820820882388,
+        -34.29703637651097,
+        23.867962789508624,
+        -21.310405909868933
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0012_2024-06-06_bb8aa7c3.jpg",
+      "date": "2024-06-06",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        138.76485879126008,
+        4.751553403540537,
+        149.37935191220825,
+        15.978946585294228
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0013_2024-12-30_51d3a6a9.jpg",
+      "date": "2024-12-30",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        10.735177034239452,
+        -40.32650642238666,
+        28.301329152720484,
+        -24.703790537514514
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0014_2025-10-01_dd3d1189.jpg",
+      "date": "2025-10-01",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        -77.5833920411813,
+        -21.360014225563148,
+        -57.293680381365434,
+        -13.012088230495833
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0015_2024-11-02_11a5cc5c.jpg",
+      "date": "2024-11-02",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        115.18663126361419,
+        1.0176381356023785,
+        126.64701228755871,
+        14.16574070425558
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0016_2025-11-20_8fb2c264.jpg",
+      "date": "2025-11-20",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        -81.01040900564988,
+        -22.918006442628148,
+        -65.3786275544514,
+        -8.395106344721707
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0017_2026-05-21_bc67c4fb.jpg",
+      "date": "2026-05-21",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        133.37815254544185,
+        -9.1101990189214,
+        142.12248710823786,
+        3.215909720871207
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0018_2025-07-01_c0138bdc.jpg",
+      "date": "2025-07-01",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        -85.88352187547662,
+        -18.57462331542099,
+        -73.38837786603648,
+        1.98240687144484
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0019_2026-01-19_12039567.jpg",
+      "date": "2026-01-19",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -77.70641812076003,
+        -28.419686312096108,
+        -70.25507676486086,
+        -10.810235696986119
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0020_2026-04-11_fc577868.jpg",
+      "date": "2026-04-11",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        124.8124938778118,
+        0.93558342713128,
+        132.75929686131403,
+        10.54875784692231
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0021_2024-08-26_e6adf499.jpg",
+      "date": "2024-08-26",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -71.28033501657899,
+        -18.43905890814051,
+        -62.813629513381265,
+        -8.683906510876604
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0022_2025-09-09_73564841.jpg",
+      "date": "2025-09-09",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        117.45053286324736,
+        -13.027923963233185,
+        130.88323643724578,
+        0.8522934260137509
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0023_2025-08-19_f2580664.jpg",
+      "date": "2025-08-19",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        132.22868410952395,
+        6.468573865633055,
+        147.68881185441694,
+        15.597992397680954
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0024_2025-09-26_8db548e8.jpg",
+      "date": "2025-09-26",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -24.80934711661441,
+        10.733404774734417,
+        -13.349985201657184,
+        26.15478947594052
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0025_2025-05-24_890b9280.jpg",
+      "date": "2025-05-24",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -20.32571967728183,
+        14.749892803638582,
+        -14.828554626932945,
+        26.250861644950735
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0026_2025-12-28_5193d9e6.jpg",
+      "date": "2025-12-28",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -21.144661912525986,
+        12.6030246398318,
+        -10.397200265340352,
+        29.061277866139182
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0027_2025-10-10_d1fffcca.jpg",
+      "date": "2025-10-10",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        135.90995444470664,
+        -4.890219279821702,
+        149.81455907267772,
+        12.922883217163367
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0028_2026-03-23_b9ad7856.jpg",
+      "date": "2026-03-23",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        -82.64533080217537,
+        17.515615252839993,
+        -61.9476804205391,
+        27.08327888114407
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0029_2024-09-29_fffa5f87.jpg",
+      "date": "2024-09-29",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -85.85769357563991,
+        23.451031802352535,
+        -77.40959708913852,
+        36.35227614374686
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0030_2024-06-11_ba59fd3a.jpg",
+      "date": "2024-06-11",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -85.84406628081453,
+        17.10048805325023,
+        -66.87107391584202,
+        31.404508552219408
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0031_2025-04-17_df9c0969.jpg",
+      "date": "2025-04-17",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        131.57098341176166,
+        -12.647923681997042,
+        147.75053623139868,
+        0.7144881651799464
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0032_2025-09-21_c25f33a7.jpg",
+      "date": "2025-09-21",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        110.52974899370886,
+        -4.169758317734728,
+        129.8080611319895,
+        8.729291985990512
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0033_2025-10-20_0368f122.jpg",
+      "date": "2025-10-20",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        17.474786710702794,
+        -34.605397720269934,
+        33.908810493212094,
+        -28.358279081288842
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0034_2025-07-25_5f36bad1.jpg",
+      "date": "2025-07-25",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        -78.89492270977073,
+        -22.083202200500246,
+        -61.525724618352896,
+        -4.841674105889491
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0035_2025-06-10_33c94a0c.jpg",
+      "date": "2025-06-10",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        -82.15033200543688,
+        29.70668350742924,
+        -71.26916478062236,
+        41.5142030259876
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0036_2025-10-24_42a424fe.jpg",
+      "date": "2025-10-24",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        138.03119032216173,
+        1.3131090915586574,
+        152.79833149041684,
+        11.342474579621058
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0037_2025-11-14_61155b4c.jpg",
+      "date": "2025-11-14",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        19.789276018973705,
+        -37.23079671549782,
+        31.487963439127277,
+        -19.120859072293126
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0038_2026-02-24_091b401c.jpg",
+      "date": "2026-02-24",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        16.27132523794639,
+        -36.16408289979754,
+        27.296183890659073,
+        -26.772658974645807
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0039_2024-10-13_98712d92.jpg",
+      "date": "2024-10-13",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        10.747221193649848,
+        -33.79227036010946,
+        28.268524160147038,
+        -20.85887018932641
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0040_2025-12-23_ad39ed01.jpg",
+      "date": "2025-12-23",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -16.594720157765426,
+        5.4154992712835615,
+        2.8231734025620367,
+        19.821063555719228
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0041_2025-10-28_45d6843d.jpg",
+      "date": "2025-10-28",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -71.74259604618965,
+        19.155827509407768,
+        -54.366965669328906,
+        29.041631112871233
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0042_2024-12-06_47cc7f20.jpg",
+      "date": "2024-12-06",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        -10.299247743466193,
+        4.681555681465931,
+        8.735320313646579,
+        21.395925916528
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0043_2024-04-06_5c8c8d65.jpg",
+      "date": "2024-04-06",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -62.882898872800695,
+        -28.792750574593242,
+        -51.89377856672853,
+        -12.41528005248735
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0044_2024-10-14_306bf7f8.jpg",
+      "date": "2024-10-14",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -66.1679471582699,
+        22.475132345710797,
+        -58.30862854542613,
+        33.16898149966652
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0045_2026-04-02_4c435174.jpg",
+      "date": "2026-04-02",
+      "layer": "MODIS_Terra_L2_Chlorophyll_A",
+      "bbox": [
+        126.89617278709521,
+        -14.27247141448817,
+        137.25135458177778,
+        2.80896279618534
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0046_2023-12-15_78a7df0a.jpg",
+      "date": "2023-12-15",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        -62.26196014962364,
+        -10.196587103382033,
+        -54.19588106527166,
+        7.2046539375646885
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0047_2025-08-15_03091b20.jpg",
+      "date": "2025-08-15",
+      "layer": "MODIS_Terra_L2_Chlorophyll_A",
+      "bbox": [
+        139.04135761549077,
+        -17.846994476210558,
+        145.44407358609988,
+        1.251799267833169
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0048_2024-09-29_fb611846.jpg",
+      "date": "2024-09-29",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        11.476455942695063,
+        -31.478207109683133,
+        27.881975448373385,
+        -24.738237916505874
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0049_2024-10-25_2b63e8ab.jpg",
+      "date": "2024-10-25",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        9.410871498561715,
+        -41.28596824446322,
+        20.19760876923671,
+        -22.127098418055798
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0050_2025-11-11_562fd33b.jpg",
+      "date": "2025-11-11",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        133.61589575795182,
+        -6.180717142908617,
+        140.61034374256755,
+        -1.1444147578895205
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0051_2026-02-12_5a801140.jpg",
+      "date": "2026-02-12",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        126.05566894513069,
+        -5.3320935155978475,
+        142.68109950442312,
+        5.656677959516043
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0052_2025-10-06_1871bf26.jpg",
+      "date": "2025-10-06",
+      "layer": "VIIRS_SNPP_L2_Chlorophyll_A",
+      "bbox": [
+        -86.74470571123545,
+        -23.62775930116164,
+        -67.68140294614675,
+        -9.476572965082694
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0053_2024-08-25_91da6525.jpg",
+      "date": "2024-08-25",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        7.333602983998475,
+        -31.303138504193267,
+        16.974552339969755,
+        -13.963112816650716
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0054_2025-07-06_dbd3be43.jpg",
+      "date": "2025-07-06",
+      "layer": "MODIS_Terra_L2_Chlorophyll_A",
+      "bbox": [
+        -62.07909263490705,
+        -9.374349493712288,
+        -48.30482312145387,
+        1.568799909208212
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0055_2025-03-04_64636a7a.jpg",
+      "date": "2025-03-04",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -91.1012264536006,
+        20.841304152740953,
+        -77.13873351454505,
+        26.474194778491302
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0056_2025-05-20_308438b6.jpg",
+      "date": "2025-05-20",
+      "layer": "VIIRS_NOAA20_Chlorophyll_a",
+      "bbox": [
+        -86.157092312633,
+        20.353401743032357,
+        -67.57793984239021,
+        30.40066350576517
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0057_2025-11-30_dc626e09.jpg",
+      "date": "2025-11-30",
+      "layer": "OCI_PACE_Chlorophyll_a",
+      "bbox": [
+        -25.59202568197129,
+        17.774931252266832,
+        -4.908593546552202,
+        24.830516840914854
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0058_2024-07-22_75e89459.jpg",
+      "date": "2024-07-22",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        -81.487295809915,
+        18.666906783311415,
+        -71.43999597137778,
+        41.10890779175814
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0059_2025-07-18_7b6d25ea.jpg",
+      "date": "2025-07-18",
+      "layer": "MODIS_Aqua_L2_Chlorophyll_A",
+      "bbox": [
+        -91.49926527448852,
+        15.351841574060717,
+        -76.36134285432269,
+        27.46926288135285
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    },
+    {
+      "label": "algas",
+      "file": "samples\\real_nasa\\2026-06-01_5e9dd3\\algas\\algas_0060_2026-04-12_6ec11f1b.jpg",
+      "date": "2026-04-12",
+      "layer": "MODIS_Terra_L2_Chlorophyll_A",
+      "bbox": [
+        -70.43701446952878,
+        18.723822384218504,
+        -55.49727096508906,
+        34.81441791405362
+      ],
+      "source": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi"
+    }
+  ],
+  "cleaning_note": "Curadoria final: oceano_normal substituido por recortes NASA BlueMarble sem nuvens; removidas imagens quase vazias, faixas pretas grandes, continente dominante e amostras visivelmente fora da categoria.",
+  "final_split_counts": {
+    "train": {
+      "algas": 29,
+      "anomalia_termica": 37,
+      "nuvens": 27,
+      "oceano_normal": 31,
+      "tempestade": 22
+    },
+    "validation": {
+      "algas": 6,
+      "anomalia_termica": 8,
+      "nuvens": 3,
+      "oceano_normal": 7,
+      "tempestade": 6
+    },
+    "test": {
+      "algas": 6,
+      "anomalia_termica": 9,
+      "nuvens": 5,
+      "oceano_normal": 7,
+      "tempestade": 5
+    }
+  },
+  "final_total_images": 208
+}

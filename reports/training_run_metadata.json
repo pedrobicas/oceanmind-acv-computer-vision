@@ -1,0 +1,42 @@
+{
+  "dataset": "dataset_real",
+  "image_size": 160,
+  "batch_size": 16,
+  "epochs": 20,
+  "seed": 42,
+  "classes": [
+    "algas",
+    "anomalia_termica",
+    "nuvens",
+    "oceano_normal",
+    "tempestade"
+  ],
+  "split_counts": {
+    "train": {
+      "algas": 29,
+      "anomalia_termica": 37,
+      "nuvens": 27,
+      "oceano_normal": 31,
+      "tempestade": 22
+    },
+    "validation": {
+      "algas": 6,
+      "anomalia_termica": 8,
+      "nuvens": 3,
+      "oceano_normal": 7,
+      "tempestade": 6
+    },
+    "test": {
+      "algas": 6,
+      "anomalia_termica": 9,
+      "nuvens": 5,
+      "oceano_normal": 7,
+      "tempestade": 5
+    }
+  },
+  "architectures": [
+    "cnn_v1",
+    "cnn_v2"
+  ],
+  "pretrained_models": false
+}

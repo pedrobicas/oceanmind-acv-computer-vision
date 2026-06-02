@@ -1,9 +1,34 @@
+# Ambientes virtuais
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Arquivos locais do sistema/editor
 .DS_Store
-models/*.keras
-reports/*.png
-reports/*.json
-# Se quiser versionar o dataset no GitHub, remova a linha abaixo
-dataset/*/
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs e temporarios
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Downloads brutos/intermediarios
+raw_nasa_downloads/
+reports/_tmp*/
+reports/review_sheets/
+
+# Artefatos de execucao local do Streamlit
+.streamlit/secrets.toml

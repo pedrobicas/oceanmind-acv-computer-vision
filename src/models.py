@@ -25,7 +25,7 @@ def build_cnn_v1(input_shape=(96, 96, 3), num_classes=5):
 
 
 def build_cnn_v2(input_shape=(96, 96, 3), num_classes=5):
-    """CNN mais robusta: batch normalization, mais convoluções e regularização."""
+    """CNN mais robusta: batch normalization, mais convolucoes e regularizacao."""
     inputs = layers.Input(shape=input_shape)
     x = layers.Rescaling(1.0 / 255)(inputs)
 
@@ -52,5 +52,9 @@ def build_cnn_v2(input_shape=(96, 96, 3), num_classes=5):
     outputs = layers.Dense(num_classes, activation="softmax")(x)
 
     model = models.Model(inputs, outputs, name="OceanMind_CNN_V2")
-    model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001), loss="categorical_crossentropy", metrics=["accuracy"])
+    model.compile(
+        optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+        loss="categorical_crossentropy",
+        metrics=["accuracy"],
+    )
     return model
