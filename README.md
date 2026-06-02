@@ -2,6 +2,8 @@
 
 Projeto da Global Solution 2026 da FIAP, disciplina Applied Computer Vision.
 
+https://oceanmind-acv-computer-vision.streamlit.app/
+
 ## Contexto
 
 O OceanMind e uma proposta de plataforma para inteligencia oceanica e previsao climatica apoiada por dados espaciais, climaticos e oceanicos. A parte de Visao Computacional classifica imagens oceanicas/satelitais em categorias ambientais uteis para monitoramento maritimo.
