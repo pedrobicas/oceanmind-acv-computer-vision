@@ -176,7 +176,7 @@ python src/generate_final_report.py
 
 Saidas:
 
-- `reports/relatorio_acv_final.pdf`
-- `reports/relatorio_acv_final.docx`
+- `reports/relatorio_acv.pdf`
+- `reports/relatorio_acv.docx`
 
 Se voce treinar novamente com `dataset_real`, rode o gerador do relatorio depois do treino para atualizar os resultados.

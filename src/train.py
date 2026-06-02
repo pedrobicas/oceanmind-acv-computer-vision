@@ -210,7 +210,7 @@ def evaluate_model(model, test_ds, class_names, model_name: str, reports_dir: Pa
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", default="dataset")
-    parser.add_argument("--epochs", type=int, default=12)
+    parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--image-size", type=int, default=96)
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--seed", type=int, default=42)
